@@ -1,0 +1,217 @@
+    1  ls -l
+    2  cat > archivo1.txt
+    3  ls
+    4  cat archivo1.txt 
+    5  grep -i archivo1.txt archivo3
+    6  grep -i archivo3 archivo1.txt 
+    7  tree
+    8  sudo apt  install tree  # version 2.1.1-2ubuntu3.24.04.2
+    9  sudo apt update
+   10  sudo apt  install tree  # version 2.1.1-2ubuntu3.24.04.2
+   11  sudo dpkg --configure -a
+   12  sudo apt  install tree  # version 2.1.1-2ubuntu3.24.04.2
+   13  tree
+   14  pwd
+   15  touch
+   16  touch archivo1.txt
+   17  touch archivo2.txt
+   18  cat archivo2.txt 
+   19  rm archivo2.txt
+   20  cat archivo2
+   21  mkdir clase5
+   22  cd clase5
+   23  mkdir practica
+   24  ls -l
+   25  cd practica
+   26  ls -l
+   27  touch practica1.txt
+   28  ls -l
+   29  cat practica1.txt
+   30  cp practica1.txt practica2.tx
+   31  exit
+   32  pwd
+   33  tree
+   34  ssh-keygen -t ed25519
+   35  cat $HOME/.ssh/*.pub
+   36  cd
+   37  pwd
+   38  mkdir repogit
+   39  cd repogit
+   40  git clone git@github.com:Gason08/TP_AySO.git
+   41  tree
+   42  cd TP_AySO/
+   43  pwd
+   44  ls -l
+   45  cat /etc/os-release
+   46  grep HOME_URL /etc/os-release
+   47  grep home_url /etc/os-release
+   48  grep -i Home_url /etc/os-release >
+   49  datos_url.txt
+   50  grep -i Home_url /etc/os-release
+   51  grep -i Home_url /etc/os-release >
+   52  datos_url.txt
+   53  cat > datos_url.txt
+   54  tree
+   55  grep -i Home_url /etc/os-release >
+   56  datos_url.txt
+   57  grep -i Home_url /etc/os-release > datos_url.txt
+   58  tree
+   59  echo datos_url.txt 
+   60  cat datos_url.txt 
+   61  whoami
+   62  echo “Usuario=$(whoami)” > datos_usuario.txt 
+   63  tree
+   64  git add
+   65  git add .
+   66  git config --global user.email "Gasanfer08@gmail.com"
+   67  git config --global user.name "Gason08"
+   68  git commit -m "ADD: agregado 1er
+   69  ejercicio sobre datos_usuarios.txt"
+   70  git status
+   71  git push
+   72  cat cpuinfo
+   73  grep "model name"
+   74  pwd
+   75  cd repogit/
+   76  cd TP_AySO/
+   77  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+   78  cat datos_usuarios.txt
+   79  git add .
+   80  commit -m "feat:añadiendo informacion del cpu"
+   81  git commit -m "feat:añadiendo informacion del cpu"
+   82  git status
+   83  git push
+   84  pwd
+   85  grep "datos_usuarios" /home/osboxes/repogit/TP_AySO >> datos_usuario.txt
+   86  grep "datos_usuarios" /TP_AySO >> datos_usuario.txt
+   87  rm datos_usuarios.txt
+   88  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+   89  cat datos_usuario.txt 
+   90  git add .
+   91  git status
+   92  git commit -m "feat:añadiendo informacion del cpu"
+   93  git push
+   94  git pull
+   95  git status
+   96  git pull
+   97  git config pull.rebase false
+   98  git pull
+   99  git status
+  100  cd repogit/
+  101  cd TP_AySO/
+  102  git status
+  103  git commit
+  104  cd repogit/
+  105  cd TP_AySO/
+  106  git status
+  107  git pull
+  108  git commit
+  109  cd repogit/
+  110  cd TP_AySO/
+  111  git merge --abort
+  112  git status
+  113  git pull
+  114  cd repogit/
+  115  cd TP_AySO/
+  116  git status
+  117  git push
+  118  git push --help
+  119  git status
+  120  git merge --abort
+  121  git status
+  122  tree
+  123  git pull
+  124  tree
+  125  rm -r TP_AySO
+  126  cd repogit/
+  127  tree
+  128  rm -r TP_AySO/
+  129  cd repogit/
+  130  tree
+  131  rm -r TP_AySO
+  132  cd repogit/
+  133  tree
+  134  cd TP_AySO/
+  135  rm datos_usuario.txt 
+  136  rm datos_url.txt 
+  137  rm README.md 
+  138  cd ..
+  139  rm TP_AySO/
+  140  git status
+  141  rm TP_AySO/
+  142  rm directory TP_AySO/
+  143  cd TP_AySO/
+  144  git status
+  145  cd ..
+  146  sudo rm TP_AySO/
+  147  pwd
+  148  rm -rf /home/osboxes/repogit/TP_AySO/
+  149  tree
+  150  cd ..
+  151  tree
+  152  mkdir TP_AySO
+  153  cd TP_AySO/
+  154  cd
+  155  mr TP_AySO
+  156  cd repogit/
+  157  git status
+  158  git clone git@github.com:Gason08/TP_AySO.git
+  159  TP_AySO/
+  160  cd TP_AySO/
+  161  pwd
+  162  ls -l
+  163  cat /etc/os-release
+  164  man grep
+  165  grep HOME_URL /etc/os-release 
+  166  grep home_url /etc/os-release
+  167  grep -i home_url /etc/os-release
+  168  grep -i home_url /etc/os-release > datos_url.txt
+  169  whoami
+  170  echo “Usuario=$(whoami)” > datos_usuario.txt
+  171  tree
+  172  git add .
+  173  git config --global user.email "gason08@gmail.com"
+  174  git config --global user.name "Gason08"
+  175  git commit -m "ADD: agregado 1er
+  176  ejercicio sobre datos_usuarios.txt"
+  177  git status
+  178  git push
+  179  grep "model name" /proc/cpuinfo | head -n1 >>
+  180  datos_usuario.txt
+  181  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+  182  git status
+  183  git add .
+  184  git status
+  185  git commit -m "feat:Añadiendo información de CPU"
+  186  git push
+  187  cat <<EOF >> README.md
+  188  Alumno: Fermepin Gaston Santiago
+  189  Division: 113
+  190  Turno: Mañana
+  191  EOF
+  192  cat README.md 
+  193  git status
+  194  git add .
+  195  git commit -m "ADD: Añadiendo Readme y datos de usuario"
+  196  git push
+  197  cd
+  198  mkdir -p {Materia1,Materia2}/uni{1..3}
+  199  tree
+  200  history -a
+  201  cd repogit/
+  202  cd TP_AySO/
+  203  history -a
+  204  cp ~/.bash_history ./Historial_comandos_Fermepin.txt
+  205  git status
+  206  tree
+  207  git add
+  208  git add .
+  209  cat Historial_comandos_Fermepin.txt 
+  210  git commit -m "ADD: Historial de comandos de Fermepin"
+  211  git push
+  212  history
+  213  sudo cat pvs
+  214  sudo cat pvs.txt 
+  215  sudo vgs > vgs.txt
+  216  sudo lvs > lvs.txt 
+  217  history > historial_lvm.txt
